@@ -6,7 +6,7 @@ This project aims to design a deep learning model with certain schemes to analyz
 - The model was able to classify 3 different classes: negative, neutral, and positive
 
 ## Dataset
-To support the defined objectives, the dataset was obtained from independent scapping with a total of 139500 reviews in Indonesian.
+To support the defined objectives, the [dataset](https://github.com/dlzcods/dana-sentiment-analysis/blob/main/dataset/review_dana.csv) was obtained from independent scapping with a total of 139500 reviews in Indonesian.
 
 ## Modeling
 | Scheme | Model      | Feature Extraction | Data Splitting |
@@ -36,12 +36,14 @@ To support the defined objectives, the dataset was obtained from independent sca
 | 3      | 97             | 91            |
 <br>
 
-Seen from the summary and prediction results of the model that has fulfilled all the points that are the objective of this project.
+Seen from the summary and [prediction](https://github.com/dlzcods/dana-sentiment-analysis/blob/main/notebooks/modeling/model_banks_comparison.ipynb) results of the model that has fulfilled all the points that are the objective of this project.
 
 ## Challenges and Solutions
 During the model development process, there were several challenges encountered. Below are the main challenges and the solutions implemented to overcome them:
 <br>
 ### Data Imbalance
+![image](https://github.com/user-attachments/assets/c15b70c3-d80d-40ae-acae-02985c39b625)
+<br>
 Challenge: The dataset had an imbalance in the number of reviews for each sentiment class.
 <br>
 Solution: Applied oversampling techniques such as SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset. This helped in improving the model's ability to accurately classify the minority class.
