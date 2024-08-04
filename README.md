@@ -6,7 +6,7 @@ This project aims to design a deep learning model with certain schemes to analyz
 - The model was able to classify 3 different classes: negative, neutral, and positive
 
 ## Dataset
-To support the defined objectives, the [dataset](https://github.com/dlzcods/dana-sentiment-analysis/blob/main/dataset/review_dana.csv) was obtained from independent scapping with a total of 139500 reviews in Indonesian.
+To support the defined objectives, the [dataset](https://github.com/dlzcods/dana-sentiment-analysis/blob/main/dataset/review_dana.csv) was obtained from independent scrapping with a total of 139500 reviews in Indonesian.
 
 ## Modeling
 | Scheme | Model      | Feature Extraction | Data Splitting |
